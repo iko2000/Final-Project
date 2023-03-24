@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/css/reset.css" />
+    <link rel="stylesheet" href="./static/css/style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/static/images/MacBook Pro 16.png"
+    />
+    <title>Contact me</title>
+  </head>
+  <body>
+    <header id="form-header">
+      <li><a href="./index.html">Back to Main page </a></li>
+    </header>
+    <main>
+      <section>
+        <div class="form-div">
+          <div class="form-box">
+            <form id="myform">
+              <div>
+                <label>Name(Company/Personal) </label>
+                <input
+                  id="name"
+                  required
+                  type="text"
+                  placeholder="Name/Company"
+                />
+              </div>
+              <div>
+                <label>Email address </label>
+                <input
+                  id="email"
+                  required
+                  type="email"
+                  placeholder="Your Email address"
+                />
+              </div>
+              <div>
+                <label>Enter your text here </label>
+                <input required id="txt" type="text" placeholder="Enter text" />
+              </div>
+            </form>
+            <button form="myform" id="form-sender">Send Message</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./static/js/form.js"></script>
+  </body>
+</html>
